@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.keycloak/keycloak-server-spi
+    compileOnly group: 'org.keycloak', name: 'keycloak-server-spi', version: '13.0.0'
+
+}
